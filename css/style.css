@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 全ページに適用 */
+body {
+    background-color: rgb(255, 208, 59)
+}
+
+/* 各オブジェクトに適用 */
+.box1 {
+    width: 55em;
+    height: 60em;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: rgb(247,150,70);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.22);
+}
+
+.box1 p {
+    padding-top: 0;
+    font-size: 500%;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    font-family: 'Segoe UI Black';
+}
