@@ -7,17 +7,18 @@
 /* すべてのページに適用される */
 html {
     font-family: 'Kosugi Maru', serif;
-
 }
-
 html * {
     box-sizing: border-box;
 }
-
 body {
-        background-color: #afa596;
+    margin: 0 0 0 0;
+       background-color: #afa596;
 }
-
+.wrapper {
+    margin: 0 auto 0 auto;
+    max-width: 960px;
+}
 h2 {
     color: #3f5170;
     font-size: 22px;
@@ -31,7 +32,6 @@ h2 {
     padding-bottom: 5px;
     padding-left: 5px;
 }
-
 p {
     line-height: 1.6;
 }
@@ -96,4 +96,23 @@ a:active {
     padding: 80px 15px 20px 15px;
     font-size: 12px;
     color: #3f5170;
+}
+
+/* 個別のスタイル */
+/* index.html */
+.keyvisual {
+    margin: 15px 0 0 0;
+}
+.news-item {
+    margin: 0;
+}
+
+/* about.html */
+.shop-photo {
+    float: left;
+    padding: 0 1em 1em 0;
+}
+
+.clear {
+    clear: both;
 }
