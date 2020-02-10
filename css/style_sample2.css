@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* Font config */
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap&subset=latin-ext');
+
+/* すべてのページに適用される */
+html {
+    font-family: 'Sriracha', cursive;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+/* Form Layout */
+/* boxの分割 */
+.split-box{
+	position:absolute;
+    width:50%;
+    height: 100%;
+}
+/* 左側 */
+.left-box {
+    left: 0;
+    width: 60%;
+    background-color: #FBD246;
+    outline: #fff solid 5px;
+    outline-offset: -10px;
+}
+.left-box h1,h2 {
+    font-family: 'Coda Caption', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+/* 右側 */
+.right-box {
+    right:0;
+    width: 40%;
+    background-color: #F4F4F4;
+}
+
+.header .footer {
+    height: 50px;
+}
+
+
+
+
