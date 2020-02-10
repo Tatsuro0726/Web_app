@@ -11,12 +11,23 @@ html * {
     box-sizing: border-box;
 }
 
+.header {
+    background-color: rgb(251, 157, 70);
+    max-height: 20%;
+    height: 100px;
+}
+.footer {
+    background-color: rgb(251, 157, 70);
+    max-height: 20%;
+    height: 100px;
+    width: 1000px;
+    float: left;
+}
 /* Form Layout */
 /* boxの分割 */
 .split-box{
-	position:absolute;
-    width:50%;
-    height: 100%;
+    max-height: 60%;
+    height: 700px;
 }
 /* 左側 */
 .left-box {
@@ -25,6 +36,7 @@ html * {
     background-color: #FBD246;
     outline: #fff solid 5px;
     outline-offset: -10px;
+    float: left;
 }
 .left-box h1,h2 {
     font-family: 'Coda Caption', sans-serif;
@@ -33,15 +45,8 @@ html * {
 }
 /* 右側 */
 .right-box {
-    right:0;
+    right: 0;
     width: 40%;
-    background-color: #F4F4F4;
+    background-color: #F4F4F4;   
+    float: left;
 }
-
-.header .footer {
-    height: 50px;
-}
-
-
-
-
