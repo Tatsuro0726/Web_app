@@ -47,6 +47,10 @@ a:hover {
 a:active {
     color: #ff6a3b;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* すべてのページに適用 - ヘッダー - */
 .logo {
@@ -170,4 +174,57 @@ textarea {
 input[type="submit"] {
     margin: 20px 0;
     width: 30em;
+}
+
+/* スマートフォン向けCSS */
+@media (max-width: 767px){
+    /* 全体 - ナビゲーション */
+    .wrapper {
+        margin: 8px;
+    }
+
+    .logo {
+        margin: 30px 0;
+    }
+    .log img {
+        width: 200px;
+    }
+
+    .nav {
+        background-color: #dfddda;
+    }
+    .nav li {
+        display: block;
+    }
+    /* menu.html - 横並び解除 */
+    .menu-item {
+        display: block;
+    }
+    .menu .menu-photo {
+        margin-right: 0;
+        width: 100%;
+    }
+    .menu-text {
+        width: 100%;
+    }
+
+    /* about.html - 画像のpaddingを調整 */
+    .shop-photo {
+        padding-right: 0;
+    }
+
+    /* conntact.html - form */
+    select {
+        width: 100%;
+    }
+    input[name="subject"] {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
+    input[type="submit"]{
+        margin: 20px 0;
+        width: 100%;
+    }
 }
